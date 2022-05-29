@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_bar_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:contentPadding="6dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:stateListAnimator="@animator/click_anim"
+                android:id="@+id/btn_profile"
+                android:layout_width="@dimen/search_bar_height"
+                android:layout_height="@dimen/search_bar_height"
+                android:padding="7dp"
+                android:src="@drawable/ic_round_person_24"
+                app:tint="?attr/colorOnPrimaryContainer"
+                android:contentDescription="@string/profile"
+                android:focusable="true"
+                android:clickable="true"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp"
+                app:cardBackgroundColor="?attr/colorSurface"
+                app:cardMaxElevation="0dp"
+                app:cardElevation="0dp"
+                android:elevation="0dp">
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    app:queryHint="@android:string/search_go"
+                    app:iconifiedByDefault="false"
+                    app:queryBackground="@android:color/transparent"
+                    android:layout_height="@dimen/search_bar_height" />
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:stateListAnimator="@animator/click_anim"
+                android:id="@+id/btn_favorite"
+                android:layout_width="@dimen/search_bar_height"
+                android:layout_height="@dimen/search_bar_height"
+                android:padding="7dp"
+                app:tint="?attr/colorOnPrimaryContainer"
+                android:src="@drawable/ic_round_star_24"
+                android:focusable="true"
+                android:clickable="true"
+                android:contentDescription="@string/favorite"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

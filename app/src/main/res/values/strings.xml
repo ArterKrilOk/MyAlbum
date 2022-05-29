@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyAlbum</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="next_step">Next Step</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="registration">Registration</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone">Phone</string>
+    <string name="a_few_more_steps">A few more steps</string>
+    <string name="password_must_be_at_least_6_symbols">Password must be at least 6 symbols</string>
+    <string name="password_must_contain_a_number">Password must contain a number</string>
+    <string name="password_must_contain_a_lower_letter">Password must contain a lower letter</string>
+    <string name="password_must_contain_a_upper_letter">Password must contain a capital letter</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_taken">This email is already taken</string>
+    <string name="can_not_create_user">Can not create new user</string>
+    <string name="new_user_created">New user created</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="email_password_incorrect">Email or password is incorrect</string>
+    <string name="auth_success">Auth successful</string>
+    <string name="profile">Profile</string>
+    <string name="favorite">Favorite</string>
+    <string name="enter_search_query">We cannot search without any information\nPlease enter search query</string>
+    <string name="can_not_find">We cannot find anything</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="log_out">Log Out</string>
+    <string name="user_first_name">First name: %1$s</string>
+    <string name="user_last_name">Last name: %1$s</string>
+    <string name="user_email">Email: %1$s</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="dd_mm_yyyy">DD.MM.YYYY</string>
+    <string name="user_date_of_birth">Date of birth: %1$s</string>
+</resources>

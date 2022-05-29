@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/authFragment">
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="space.pixelsg.myalbum.ui.auth.AuthFragment"
+        tools:layout="@layout/auth_fragment"
+        android:label="AuthFragment" >
+        <action
+            android:id="@+id/action_authFragment_to_firstSignUpFragment"
+            app:destination="@id/firstSignUpFragment" />
+        <action
+            android:id="@+id/action_authFragment_to_albumsListFragment"
+            app:destination="@id/albumsListFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstSignUpFragment"
+        android:name="space.pixelsg.myalbum.ui.signup.FirstSignUpFragment"
+        tools:layout="@layout/first_signup_fragment"
+        android:label="FirstSignUpFragment" >
+        <action
+            android:id="@+id/action_firstSignUpFragment_to_secondSignUpFragment"
+            app:destination="@id/secondSignUpFragment" >
+
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/secondSignUpFragment"
+        android:name="space.pixelsg.myalbum.ui.signup.SecondSignUpFragment"
+        tools:layout="@layout/second_signup_fragment"
+        android:label="SecondSignUpFragment" >
+        <action
+            android:id="@+id/action_secondSignUpFragment_to_authFragment2"
+            app:destination="@id/authFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumsListFragment"
+        android:name="space.pixelsg.myalbum.ui.albumslist.AlbumsListFragment"
+        android:label="albums_list_fragment"
+        tools:layout="@layout/albums_list_fragment" >
+        <action
+            android:id="@+id/action_albumsListFragment_to_albumDetailsActivity"
+            app:destination="@id/albumDetailsActivity" />
+        <action
+            android:id="@+id/action_albumsListFragment_to_userBottomFragment"
+            app:destination="@id/userBottomFragment" />
+    </fragment>
+
+    <activity
+        android:id="@+id/albumDetailsActivity"
+        android:name="space.pixelsg.myalbum.ui.albumdetails.AlbumDetailsActivity"
+        android:label="activity_album_details"
+        tools:layout="@layout/activity_album_details" />
+
+    <dialog
+        android:id="@+id/userBottomFragment"
+        tools:layout="@layout/user_details_bottom_fragment"
+        android:name="space.pixelsg.myalbum.ui.userdetails.UserBottomFragment"
+        android:label="UserBottomFragment" >
+        <action
+            android:id="@+id/action_userBottomFragment_to_albumsListFragment"
+            app:destination="@id/albumsListFragment" />
+        <action
+            android:id="@+id/action_userBottomFragment_to_authFragment"
+            app:destination="@id/authFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/authFragment"
+            app:launchSingleTop="true" />
+    </dialog>
+</navigation>

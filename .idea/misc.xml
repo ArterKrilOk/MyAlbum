@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/activity_album_details.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/activity_main.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/album_fragment.xml" value="0.31680205215904234" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/album_fragment_header.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/album_list_item.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/albums_list_fragment.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/auth_fragment.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/first_signup_fragment.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/seacrh_bar.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/search_bar.xml" value="0.3136344449134656" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/second_signup_fragment.xml" value="0.3136344449134656" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/track_list_item.xml" value="0.31765711842667804" />
+        <entry key="..\:/Users/krilo/AndroidStudioProjects/MyAlbum/app/src/main/res/layout/user_details_bottom_fragment.xml" value="0.31680205215904234" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
